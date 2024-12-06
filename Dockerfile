@@ -13,7 +13,7 @@ RUN python -m nltk.downloader stopwords
 
 # copy executables to path
 #COPY . .
-#COPY training.py .
+COPY training.py .
 COPY test.py . 
 
 #RUN chmod +x  *.sh

@@ -1,6 +1,6 @@
 README.md
 
-# Change this!!
+# Course competition container
 
 This project is a machine learning model written in Python for the LING 582 course at the University of Arizona. The model reads CSV training and test data to train a logistic regression model using PyTorch, classify the test data, and write the results in a third CSV file called 'results'. The project is containerized using Docker and Docker Compose.
 
@@ -67,9 +67,9 @@ The data directory contains the training and test data files. After the code run
 
     `git clone <repository-url>`
 
-2. Navigate to repository directory:
+2. Navigate to competition_container repository directory:
 
-    `cd <repository-name>`
+    `cd <repository-name>/competition_container`
 
 (chmod +x *.sh (to make the bash scripts executable)??)
 
